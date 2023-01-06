@@ -50,6 +50,7 @@ header {
     background-image: url("./images/banner/banner3.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: -100px;
     padding-right: 150px;
     display: flex;
     justify-content: right;

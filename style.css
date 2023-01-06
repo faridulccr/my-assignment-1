@@ -11,7 +11,8 @@
 }
 body {
     width: 100%;
-    max-width: 1366px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 img {
     max-width: 100%;
@@ -27,13 +28,28 @@ p {
 button {
     cursor: pointer;
 }
-
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005fac;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 /*********** Header area styles ***********/
 header {
     width: 100%;
-    height: 680px;
+    height: 808px;
     background-image: url("./images/banner/banner3.png");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-right: 150px;
     display: flex;
     justify-content: right;
@@ -53,21 +69,6 @@ header {
     width: 494px;
     color: #fff;
     margin: 24px 0 32px auto;
-}
-header .contact-btn {
-    width: 160px;
-    height: 64px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #005fac;
-    border: none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
 }
 
 /********** main area styles **********/
@@ -111,7 +112,7 @@ main {
 
 /************ Planning section styles ************/
 .planning-sec {
-    margin: 100px 0;
+    margin-top: 100px;
     text-align: center;
 }
 .planning-sec .planning-content {
@@ -136,4 +137,97 @@ main {
     font-size: 25px;
     line-height: 29px;
     color: #737272;
+}
+.planning-sec .planner-img-sec {
+    width: 100%;
+    height: 300px;
+    background-image: url("./images/watch.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    text-align: left;
+    border-radius: 8px;
+}
+.gradient-back {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, #005fac, rgba(0, 95, 172, 0));
+    padding: 60px 64px;
+    border-radius: 8px;
+}
+.planner-img-sec h2 {
+    width: 459px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/************* footer area styles ************/
+footer {
+    background-color: #151414;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-content {
+    width: 485px;
+}
+.footer-content h2 {
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer-content p {
+    color: #fff;
+}
+.footer-content .social-media-sec {
+    margin-top: 32px;
+}
+.footer-content .social-media-sec img {
+    width: 47px;
+    height: 47px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+footer .subscribe {
+    width: 325px;
+}
+.subscribe h4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #ffffff;
+    margin-bottom: 31px;
+}
+.subscribe input[type="email"] {
+    width: 325px;
+    height: 64px;
+    background: #151414;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #f3f3f3;
+    padding: 21px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    margin-bottom: 16px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.subscribe input[type="submit"] {
+    width: 170px;
+    height: 64px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #005fac;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
 }

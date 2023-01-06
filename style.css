@@ -71,3 +71,37 @@ header .contact-btn {
 main {
     padding: 100px 150px;
 }
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+/********** failure section styles *********/
+.failure-sec {
+    display: flex;
+    column-gap: 90px;
+    align-items: center;
+}
+.failure-sec img {
+    width: 570px;
+    height: 700px;
+}
+.failure-content > p {
+    margin: 24px 0 14px;
+}
+.failure-content ul li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    display: flex;
+    align-items: center;
+}
+.failure-content ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

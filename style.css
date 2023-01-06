@@ -24,6 +24,9 @@ p {
     line-height: 26px;
     color: #444343;
 }
+button {
+    cursor: pointer;
+}
 
 /*********** Header area styles ***********/
 header {
@@ -104,4 +107,33 @@ main {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+
+/************ Planning section styles ************/
+.planning-sec {
+    margin: 100px 0;
+    text-align: center;
+}
+.planning-sec .planning-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.planner-card > img {
+    width: 92px;
+    height: 92px;
+}
+.planner-card > h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin: 24px 0 16px;
+}
+.planner-card > p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
 }

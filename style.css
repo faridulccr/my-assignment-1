@@ -111,6 +111,33 @@ main {
     margin-right: 10px;
 }
 
+/************ my goal section styles *************/
+.my-goal-sec {
+    margin-top: 100px;
+}
+.my-goal-sec .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.my-goal-sec .goal-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.goal-content .goal-description {
+    width: 45%;
+}
+.goal-content h4 {
+    width: 350px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin: 24px 0 16px;
+}
+.goal-content img {
+    width: 45%;
+}
 /************ Planning section styles ************/
 .planning-sec {
     margin-top: 100px;
